@@ -5,7 +5,7 @@
         flat>
         <v-app-bar
             height="100"
-            color="secondary darken-4">
+            color="secondary">
             <!-- Add a menu icon for small screens -->
             <v-app-bar-nav-icon
                 @click.stop="drawer = !drawer"
@@ -54,17 +54,16 @@
 </template>
 
 <script>
-
 export default {
     name: 'NavBar',
     data() {
         return {
             drawer: false,
             buttons: [
-                { text: 'About me', ref: '', route: 'Ab' },
-                { text: 'Education', ref: '', route: 'ED' },
-                { text: 'Experience', ref: '', route: 'EX' },
-                { text: 'Projects', ref: '', route: 'PR' },
+                { text: 'About me', ref: 'about', route: '/about' },
+                { text: 'Education', ref: 'education', route: '/education' },
+                { text: 'Experience', ref: 'experience', route: '/experience' },
+                { text: 'Projects', ref: 'projects', route: '/projects' },
             ],
         }
     },
@@ -72,11 +71,25 @@ export default {
         navigateTo(route) {
             this.$router.push(route);
             this.drawer = false;
+            this.scrollToSection(route.substring(1));
+        },
+        scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                const navbarHeight = 100; // Height of the navbar
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition - navbarHeight;
+
+                window.scrollBy({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
         }
+
     }
 }
 </script>
-
 <style scoped>
 * {
     text-transform: none;

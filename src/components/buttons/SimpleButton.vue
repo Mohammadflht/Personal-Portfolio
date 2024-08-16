@@ -4,15 +4,16 @@
         outlined
         color="buttonTextColor"
         :href="buttonLink"
+        target="_blank"
         style="
             background-color: #2E2E2E;
             text-transform: none;
             border-color: #717171;">
-        {{ buttonText }}
         <v-icon
-            class="mr-1">
+        class="mr-1">
             {{ buttonIcon }}
         </v-icon>
+    {{ buttonText }}
     </v-btn>
 </template>
 
