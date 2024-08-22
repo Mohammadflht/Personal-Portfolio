@@ -69,7 +69,12 @@
                 Education
             </h2>
 
+<div class="timeline-base">
 
+    <hr class="timeline-line">
+    <div class="timeline-toggle-1"></div>
+    <div class="timeline-toggle-2"></div>
+</div>
 
 
 
@@ -104,6 +109,7 @@ export default {
                 {text: 'mfalahat2002@gmail.com', icon: 'mdi-email', link: 'mailto:mfalahat2002@gmail.com'},
                 {text: 'CV', icon: 'mdi-file-account', link: 'https://drive.google.com/file/d/1M4dbRp4Y8nqU7dwPtJF7bE5y3WcTU0Gi/view'},
             ],
+
         }
     },
     mounted() {
@@ -142,5 +148,41 @@ section{
 }
 .title-color {
     color: #ffffff !important;
+}
+.timeline-base {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    transform: rotate(90deg);
+    /* background-color: darkslategrey !important; */
+}
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    /* transform: rotate(90deg); */
+    width: 90%;
+    display: block;
+}
+.timeline-toggle-1 {
+    left: 60px;
+    bottom: 11px;
+    /* transform: translateX(-50%); */
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFFCFC;
+    border-radius: 50%;
+}
+.timeline-toggle-2 {
+    left: 200px;
+    bottom: 11px;
+    /* transform: translateX(-50%); */
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFFCFC;
+    border-radius: 50%;
 }
 </style>
