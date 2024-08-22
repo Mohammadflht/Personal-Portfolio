@@ -72,7 +72,18 @@
 <div class="timeline-base">
 
     <hr class="timeline-line">
+    <div class="bachelor">
+        <p class="time-period">Sep 2020 - Jul 2024</p>
+        <p class="education-title">Bachelor of Engineering - BE, Computer Engineering</p>
+        <p class="education-info">The final project on the topic of recommender system design.</p>
+    </div>
+
     <div class="timeline-toggle-1"></div>
+    <div class="Diploma">
+        <p class="time-period">Sep 2017 - May 2020</p>
+        <p class="education-title">High School Diploma, Mathematics and Physics</p>
+        <p class="education-info">Focusing on subjects such as physics, chemistry, mathematics, geometry and discrete mathematics.</p>
+    </div>
     <div class="timeline-toggle-2"></div>
 </div>
 
@@ -151,6 +162,7 @@ section{
 }
 .timeline-base {
     width: 400px;
+    /* background-color: chocolate; */
     height: 400px;
     position: relative;
     transform: rotate(90deg);
@@ -161,8 +173,7 @@ section{
     left: 50%;
     bottom: 15px;
     transform: translateX(-50%);
-    /* transform: rotate(90deg); */
-    width: 90%;
+    width: 80%;
     display: block;
 }
 .timeline-toggle-1 {
@@ -184,5 +195,40 @@ section{
     height: 10px;
     background-color: #FFFCFC;
     border-radius: 50%;
+}
+.bachelor {
+    width: 100%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
+}
+.Diploma {
+    width: 100%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 100px;
+    left: 144px;
+}
+.time-period {
+    text-wrap: nowrap;
+    color: #FFBBC3 !important;
+    font-size: 15px;
+    margin-bottom: 2.5px;
+}
+.education-title {
+    text-wrap: nowrap;
+    color: #FFEA9F !important;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+.education-info {
+    text-wrap: nowrap;
+    color: #FFFFFF !important;
+    font-size: 19px;
 }
 </style>
