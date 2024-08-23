@@ -12,7 +12,7 @@
                     style="">
                     <v-avatar
                         size="90px">
-                        <img src="../assets/My Personal PIC.jpg" alt="Personal Image">
+                        <img src="../assets/My Personal PIC.jpg" alt="Mohammad Falahati Pics" draggable="false" title="Mohammad Falahati">
                     </v-avatar>
                 </v-col>
             </v-row>
@@ -46,7 +46,7 @@
             <v-row>
                 <v-col
                     col="12"
-                    style="display: flex; gap: 28px;">
+                    style="display: flex; gap: 28px; flex-wrap: wrap;">
                     <div
                         v-for="button in buttons"
                         :key="button">
@@ -69,23 +69,41 @@
                 Education
             </h2>
 
-<div class="timeline-base">
+            <div class="timeline-base">
 
-    <hr class="timeline-line">
-    <div class="bachelor">
-        <p class="time-period">Sep 2020 - Jul 2024</p>
-        <p class="education-title">Bachelor of Engineering - BE, Computer Engineering</p>
-        <p class="education-info">The final project on the topic of recommender system design.</p>
-    </div>
+                <hr class="timeline-line">
+                <div class="bachelor">
+                    <p class="time-period">Sep 2020 - Jul 2024</p>
+                    <p class="education-title">Bachelor of Engineering - BE, Computer Engineering</p>
+                    <p class="education-info">The final project on the topic of recommender system design.</p>
+                </div>
 
-    <div class="timeline-toggle-1"></div>
-    <div class="Diploma">
-        <p class="time-period">Sep 2017 - May 2020</p>
-        <p class="education-title">High School Diploma, Mathematics and Physics</p>
-        <p class="education-info">Focusing on subjects such as physics, chemistry, mathematics, geometry and discrete mathematics.</p>
-    </div>
-    <div class="timeline-toggle-2"></div>
-</div>
+                <div class="timeline-toggle-1"></div>
+                <div class="Diploma">
+                    <p class="time-period">Sep 2017 - May 2020</p>
+                    <p class="education-title">High School Diploma, Mathematics and Physics</p>
+                    <p class="education-info">Focusing on subjects such as physics, chemistry, mathematics, geometry and discrete mathematics.</p>
+                </div>
+                <div class="timeline-toggle-2"></div>
+            </div>
+
+            <h2
+                class="title-color"
+                style="font-size: 33px; display: flex; align-items: center; gap: 8px;">
+                <v-icon
+                    class="title-color"
+                    style="width: 30px; height: 30px;"
+                    >mdi-translate
+                </v-icon>
+                Languages
+            </h2>
+            <div>
+                <p class="language-name">Persian - Navite</p>
+                <hr style="width: 100%;" class="language-progress">
+
+                <p class="language-name">English - Professional Proficiency (B2)</p>
+                <hr style="width: 70%;" class="language-progress">
+            </div>
 
 
 
@@ -230,5 +248,45 @@ section{
     text-wrap: nowrap;
     color: #FFFFFF !important;
     font-size: 19px;
+}
+.language-name {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.language-progress {
+    background-color: #FFEA9F;
+    /* width: 100%; */
+    height: 6px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .time-period, .education-title, .education-info {
+        text-wrap: wrap;
+    }
+    .Diploma {
+        left: 204px;
+    }
+    .timeline-toggle-2 {
+        left: 260px;
+    }
+    .timeline-line {
+        margin-left: 45px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    section {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
 }
 </style>
