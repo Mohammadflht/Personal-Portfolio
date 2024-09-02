@@ -55,17 +55,24 @@
                 </v-col>
             </v-row>
         </section>
+
+
+
         <section
             id="education"
             ref="education">
             <h2
-                class="title-color"
-                style="font-size: 33px; display: flex; align-items: center; gap: 8px;">
-                <v-icon
-                    class="title-color"
-                    style="font-size: 33px;"
-                    >mdi-school
-                </v-icon>
+                class="title-color">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="28" height="28" fill="url(#pattern0_2090_139)"/>
+                    <defs>
+                        <pattern id="pattern0_2090_139" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_2090_139" transform="scale(0.0111111)"/>
+                        </pattern>
+                        <image id="image0_2090_139" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADuklEQVR4nO2cO2sVQRSAr5DcKNilsRAjmCpgYUR8dgoq2FhY+ADBF4L6Q8T4aoKijZZCQCWVIWgRtRQs1DSiTVBIJEpE70bzycCs5nHvdXdnZndm7vlgm/uYc86Xw+7Z3eyt1QRBEARBEARBEAQzgI3ALWBGb8NAn+GyQgqwAbgJ/GQlCXAf2PT3C4JVwSK8ZMHLkQ53LFiElyy4VYf31zoV3AoW4ZQruPOEU63g+IV7Jjg+4Z4LDl94YILDEx64YP+FRybYP+GRC65eeIcJLl94hwt2L1wEOxYugh0LF8GOhYtgx8KBHuCGflOwS6Ld1pXoa5YXF1YyVNO37gW3TIvoEkVfLSlYJ3NFia4D1+Vg6ISGPgbWZbxzg8zTjpEzRMfINQ/HyFU8x8h16ZjvtPwgfhIf7h32Abf1zBgbDV1bricLgC3AQ1fCY+rwpEgHA5uBB8CCWsSJ6EiEJzYEp7izHO4upVFkF7Go1iWCU+xbDbfDExsHuVaL27MYrvDE5hTRKoiNtUMVnrgY01oFsxljcbBBj/fhjYJj2qCPohVjwDaPOjwxnSJ8FY0nwhNbY5rvoqsSnticg0MSXZbwxLbgUEW7Eu5McIpJ7XlyypN8VhaAx8DWAlPKsMnPSKgpAniURXAMoo06vGBumTt4OSa1uyrGhDEXwk0E55Fl8t0iRdlgzIZwG4JTTGo3rSNXsDKFY1FwiknthUQWDVaGcBwITjGp3YrYrMEs8Qy4AAwAa/U2oF976kKwz6LniI9vPop+R3y88VG0ugwZG8M+it5DfOzyTrQOOE48PMlRd+mi+4HvhM9cnl+HLF20DnoI+EW4/AYO56y5Ke4s/wt8EpgnPBLgRIF6m+LG7srgBwN7tG4a2F+w1qbYt9r+ov04/qNO9dcXrLG7zbrd9q22T+Y48AH/UDkdM6hrHfC8zfoT6jN2bf4/qTpw3pMzyLfAuSWPpRWr52WGWC9M4hQGWAXs0/f6vlIes8A9YK/KwUId6g+VlbN27BVPdjVwQD+9+8rypDKv1xzSMXos5646NSsTNZ8A1gA7VQcAl4ERvZ+bBL7orkyZ1VPNpP7MiP7OGWCHWstxriqfrMy4zCVqgM85RH+qOt9gAUZziB6tOt9gUWNhDtFHq843WPTxZCqD5CnXx4voAS5lEH2x6jyDR5+0vG8j+aPtsbJjAU63EX2q6vyiAegCXjeRrF7rqjq/qAC26xsGKer/THZXnVeUAHcXib5TdT7RAvTqs0W19VadTy1mgCNqa/bmH/uilwAmnrHYAAAAAElFTkSuQmCC"/>
+                    </defs>
+                </svg>
+
                 Education
             </h2>
 
@@ -88,13 +95,22 @@
             </div>
 
             <h2
-                class="title-color"
-                style="font-size: 33px; display: flex; align-items: center; gap: 8px;">
-                <v-icon
-                    class="title-color"
-                    style="width: 30px; height: 30px;"
-                    >mdi-translate
-                </v-icon>
+                class="title-color">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2090_103)">
+                        <path d="M5 6.25H13.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11.25 3.75V6.25C11.25 11.7725 8.45125 16.25 5 16.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.25 11.25C6.25 13.93 9.94 16.135 14.625 16.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15 25L20 13.75L25 25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M23.875 22.5H16.125" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2090_103">
+                            <rect width="30" height="30" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+
                 Languages
             </h2>
             <div>
@@ -106,13 +122,135 @@
             </div>
 
 
+            <h2
+                class="title-color"
+                style="margin-top: 80px;">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2090_91)">
+                        <path d="M6.66667 12H25.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.66667 20H25.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14.6667 5.3335L9.33333 26.6668" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22.6667 5.3335L17.3333 26.6668" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2090_91">
+                            <rect width="32" height="32" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                Skills
+            </h2>
+            <div>
+                <div>
+                    <p class="skill-title">Web Development:</p>
+                    <p>
+                        <simple-button
+                            buttonText="HTML"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                        <simple-button
+                            buttonText="CSS"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                        <simple-button
+                            buttonText="JavaScript"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                        <simple-button
+                            buttonText="Bootstrap"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                    </p>
+                </div>
+                <div>
+                    <p class="skill-title">Frameworks:</p>
+                    <p>
+                        <simple-button
+                            buttonText="Vue"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                    </p>
+                </div>
+                <div>
+                    <p class="skill-title">Design Programs:</p>
+                    <p>
+                        <simple-button
+                            buttonText="Figma"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                    </p>
+                </div>
+                <div>
+                    <p class="skill-title">Database Management:</p>
+                    <p>
+                        <simple-button
+                            buttonText="MySQL"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                    </p>
+                </div>
+                <div>
+                    <p class="skill-title">Version Control:</p>
+                    <p>
+                        <simple-button
+                            buttonText="Git"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                        <simple-button
+                            buttonText="GitHub"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                    </p>
+                </div>
+                <div>
+                    <p class="skill-title">Package Managers:</p>
+                    <p>
+                        <simple-button
+                            buttonText="NPM"
+                            style="margin-right: 12px; margin-top: 6px;">
+                        </simple-button>
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
 
             <!-- Add your Education content here -->
         </section>
-        <section id="experience" ref="experience">
-            <h2>Experience</h2>
-            <!-- Add your Experience content here -->
+
+
+
+        <section
+            id="experience"
+            ref="experience"
+            style="margin-top: 140px;">
+            <h2
+                class="title-color">
+                <svg width="31" height="37" viewBox="0 0 31 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="31" height="37" fill="url(#pattern0_2090_56)"/>
+                    <defs>
+                        <pattern id="pattern0_2090_56" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_2090_56" transform="matrix(0.0111111 0 0 0.00930931 0 0.0810811)"/>
+                        </pattern>
+                        <image id="image0_2090_56" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAABz0lEQVR4nO3cQU4CMQCFYVYqNxAw8UgeRNGd4zn0TqIr4RruDGxYPdPYBZox0FLeUOb/Ejcah/rTTJt0cDAAAAAAAKSRdCHpQdK7pJX+F372Jule0nniy/SbpCtJC6Wbh9/tevw1zeRFRuTN2MzsbeLtYl/TrS/Ud/q5J+9r1vXfcfQkLQuEXg5OePXvm1Wx3c4eq3/fzLN3OwVW/76ZZ83sQqt/30y7Wv37ZtbV6t83y5zQyEBoE0KbENqE0CaENiG0CaFNCG1CaBNCmxDahNAmhDYhtAmhTQhtQugTCr2W9ChpHL+a+L1aFBm/I3TTco0w2FoUGb8j9KjlGpeqx6jE+A8euuAb1olDdyB0RGiTakKHlbrlGhPVY1xi/I7Qbav2k+rRlBi/I/Q6bodq3kc3XeyjefYu3VdOaJ4mNT1NGj4ygDR3OaHP41Ps2M2HpLPk0BufYSH2bpEnWZH/zOxpuP+wQP4SNguv4XaRPZMBAMdN0i3/jiF505C1jw4+JT1LupF0LWmYfKETJWkYm4Q2L7EVp+AuOe8YMhDahNAmhDYhtAmhTQhtQugjDs3hbDoOZ004nDXhcNaAw1kDDmcPiMNZAAAAAAAAABjs7BuZpsqApcZtfAAAAABJRU5ErkJggg=="/>
+                    </defs>
+                </svg>
+
+                Experience
+            </h2>
+
+            
+
+
         </section>
+
+
+
+
         <section id="projects" ref="projects">
             <h2>Projects</h2>
 
@@ -154,7 +292,7 @@ export default {
 
         this.sections.forEach(section => {
             const element = this.$refs[section];
-            if (element.offsetTop <= currentScrollPosition + 100) {
+            if (element.offsetTop <= currentScrollPosition + 101) {
             currentSection = section;
             }
         });
@@ -177,6 +315,7 @@ section{
 }
 .title-color {
     color: #ffffff !important;
+    font-size: 33px; display: flex; align-items: center; gap: 8px;
 }
 .timeline-base {
     width: 400px;
@@ -258,6 +397,12 @@ section{
     background-color: #FFEA9F;
     /* width: 100%; */
     height: 6px;
+}
+.skill-title {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 18px;
+    margin-bottom: 8px;
 }
 
 
