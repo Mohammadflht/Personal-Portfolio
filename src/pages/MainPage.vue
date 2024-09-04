@@ -243,7 +243,30 @@
                 Experience
             </h2>
 
-            
+            <div class="timeline-base">
+                <hr class="work-timeline-line">
+
+                    <div class="work-timeline-1">
+                        <p class="time-period">Jul 2024 - Present</p>
+                        <p class="education-title">Frontend Developer</p>
+                        <p class="education-info">Iranguereh - Part-time <a href="https://guereh.com/" target="_blank">(view website)</a></p>
+                    </div>
+                    <div class="work-timeline-toggle-1"></div>
+
+                    <div class="work-timeline-2">
+                        <p class="time-period">Oct 2023 - Jun 2024</p>
+                        <p class="education-title">Teaching Assistant</p>
+                        <p class="education-info">Shahrood University of Technology <a href="https://shahroodut.ac.ir/en/" target="_blank">(view website)</a></p>
+                    </div>
+                    <div class="work-timeline-toggle-2"></div>
+                    
+                    <div class="work-timeline-3">
+                        <p class="time-period">Jun 2023 - Oct 2023</p>
+                        <p class="education-title">Frontend Developer</p>
+                        <p class="education-info">Fidar - Internship <a href="https://fdni.ir/" target="_blank">(view website)</a></p>
+                    </div>
+                    <div class="work-timeline-toggle-3"></div>
+            </div>
 
 
         </section>
@@ -251,11 +274,31 @@
 
 
 
-        <section id="projects" ref="projects">
-            <h2>Projects</h2>
+        <section
+            id="projects"
+            ref="projects"
+            style="margin-top: 140px;">
+            <h2
+                class="title-color">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="27" height="27" fill="url(#pattern0_2105_33)"/>
+                    <defs>
+                        <pattern id="pattern0_2105_33" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_2105_33" transform="scale(0.0111111)"/>
+                        </pattern>
+                        <image id="image0_2105_33" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADjUlEQVR4nO2bu2sVQRSHNxEjPhArFStt9FrZWGshgg+w0EojWNgq+BdYWKgg5oIoEWMCEUUQxMJOG0NawUrFRrAQHyjG+ETUT5a7hVx3586uO3PObs4HaQJ7zsxh7/xmzm82SQzDMAzDMAzDMAzDMPwBhoGhEo8YZQCWAOPAJ+AbcBVYWiqIMRigy7+MezxqlFwuPuQU+qN3EGMwQId85jweN3wBDhcUesY7iFF5fU457/G44QswW1DoQ95BDC8hnC8o9KYBjxu+AJsLipzup4e9AxluTAgjgQlhtELPFCwdo/8ZV3+/BFgP3Ad+Aa+A4wJC2KkYczkwCXzN/i4CI4k2soE+yZn4gYgnwvmqQghM5MSbSLQBXC6Y/O0AuUbrPhECXwpi7k+0AOyjmFsB8o0V5BqrGG/IsRS9A9bVPYcqg1wLvHUUem8ThBC44JjDPVGRzN6Eu44BTjflREhPY5455nKi3pmUG9wxx8CeAyubdCIEtgI/CuJ/B7bUN5NyE063QXmk27vtTWyNAicdL8/jqDZZ5tM9cgzoVFNbo/SWpgeOuXXryOM7mHOOgTwEFje5NQpsSO2wgjy/gT115XINYhvws2AQn4GNbWiNAkccL9NrYHWd+fqTrwJeOAZwtE2tUeCmY6536s4nn1ioNSryYon+lARbo1GXShXikMh5hFHEX8t2B0GPMMp2VssGHmGPMOgBTdORFAWXZYK0HLQ1WVDgEQZpojkmJtI2JJBHGKAtvLtswLThraIRTgCPMKDRcaPJhe7U7RFqKrSapYMAHmHApWNXY8UQBUIY1FHSsr1Dya3RoI6S9IEFJbdGgztK0kdwFNwajeYoSTaV0HEijOcoSbVJERZCEUdJovGPoBCKOUqxEyMshKKOUsyfEoJCqMFRiiYOCAmhFkcp2nYHGY9QhaMU9UoYAkIofUCLfiRFQAi1tByiXtsl/mUZNU20qm3DnU1ojQ4QeNmL6J6N8GkNn0945Huj+tMKj4+FrjXBI3QUWs/HQn+tcakq9+8+djTBIwTO5uS6kmgEWJN+7ga8B54CB5viEQKLgDPZh6gvgdPp/5I2g4LW6IIAJR5h60GJR9hqUOIRth4UeIQLAkwIoxW6a0IYp9CzJoRxCj2n5dZoq6HnO/aTFt+EsOZCT+YU+lKtSYwkLfQK4HrmdKR/U8Ayq01YA3jECmwYhmEYhmEYhmEYRuLPH/XzzBLwlsCcAAAAAElFTkSuQmCC"/>
+                    </defs>
+                </svg>
+                Projects
+            </h2>
 
-            <!-- Add your Projects content here -->
+
+
         </section>
+
+        <div class="credit-box">
+            <p class="credit-text">© Created by Mohammad Falahati - <span id="currentyear">as</span></p>
+        </div>
     </v-container>
 </template>
 
@@ -281,6 +324,11 @@ export default {
     },
     mounted() {
         window.addEventListener('scroll', this.handleScroll);
+
+        // year in credit
+        let currentYear = document.getElementById("currentyear")
+        let fullyear = new Date().getFullYear();
+        currentYear.textContent = fullyear;
     },
     beforeDestroy() {
         window.removeEventListener('scroll', this.handleScroll);
@@ -303,9 +351,13 @@ export default {
         }
     }
 }
+
 </script>
 
 <style scoped>
+a {
+    text-decoration: none;
+}
 section{
     width: 100%;
     padding: 2rem 16rem;
@@ -401,10 +453,97 @@ section{
 .skill-title {
     color: #FFFFFF;
     font-size: 22px;
-    margin-top: 18px;
+    margin-top: 12px;
     margin-bottom: 8px;
 }
 
+.work-timeline {
+    width: 100%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
+}
+.work-timeline-toggle-1 {
+    left: 60px;
+    bottom: 11px;
+    /* transform: translateX(-50%); */
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFFCFC;
+    border-radius: 50%;
+}
+.work-timeline-toggle-2 {
+    left: 200px;
+    bottom: 11px;
+    /* transform: translateX(-50%); */
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFFCFC;
+    border-radius: 50%;
+}
+.work-timeline-toggle-3 {
+    left: 340px;
+    bottom: 11px;
+    /* transform: translateX(-50%); */
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFFCFC;
+    border-radius: 50%;
+}
+.work-timeline-1 {
+    width: 100%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
+}
+.work-timeline-2 {
+    width: 100%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 100px;
+    left: 144px;
+}
+.work-timeline-3 {
+    width: 100%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 100px;
+    left: 286px;
+}
+
+.work-timeline-line {
+    position: absolute;
+    left: 60%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    width: 100%;
+    display: block;
+}
+
+
+
+.credit-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    & p {
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
 
 
 
