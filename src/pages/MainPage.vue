@@ -292,6 +292,66 @@
                 Projects
             </h2>
 
+            <div class="project-item">
+                <p class="project-title">Personal Portfolio</p>
+                <p class="project-desc">
+                    Developed an interactive web application using Astro and Tailwind.
+                    Designed to be a reflective space for personal and professional growth,
+                    with a focus on simplicity and minimalism.
+                </p>
+                <div class="project-buttons">
+                    <simple-button buttonLink="https://github.com/Mohammadflht/portfolio-website" buttonIcon="mdi-github" buttonText="GitHub"></simple-button>
+                </div>
+                <div
+                    class="project-preview">
+                    <img draggable="false" src="../assets/Projects/Project-portfolio.png" alt="Portfolio">
+                </div>
+            </div>
+
+
+            <div class="project-item">
+                <p class="project-title">Interactive Card</p>
+                <p class="project-desc">
+                    Interactive card details form.
+                </p>
+                <div class="project-buttons">
+                    <simple-button buttonLink="https://github.com/Mohammadflht/Interactive-Card" buttonIcon="mdi-github" buttonText="GitHub"></simple-button>
+                </div>
+                <div
+                    class="project-preview">
+                    <img draggable="false" src="../assets/Projects/Project-interactive card.png" alt="Interactive Card">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <p class="project-title">Calculator</p>
+                <p class="project-desc">
+                    A calculator using JavaScript to execute a series of commands as follows:Addition,
+                    Subtraction, Multiplication, Division, Delete, All clear.
+                </p>
+                <div class="project-buttons">
+                    <simple-button buttonLink="https://github.com/Mohammadflht/Calculator-js" buttonIcon="mdi-github" buttonText="GitHub"></simple-button>
+                </div>
+                <div
+                    class="project-preview">
+                    <img draggable="false" src="../assets/Projects/Project-calculator.png" alt="Calculator">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <p class="project-title">Advice Generator</p>
+                <p class="project-desc">
+                    A project to randomly display quotes of advice using the Advice Slip API.
+                </p>
+                <div class="project-buttons">
+                    <simple-button buttonLink="https://github.com/Mohammadflht/Advice-Generator-App" buttonIcon="mdi-github" buttonText="GitHub"></simple-button>
+                </div>
+                <div
+                    class="project-preview">
+                    <img draggable="false" src="../assets/Projects/Project-advice generator.png" alt="Advice Generator">
+                </div>
+            </div>
+
 
 
         </section>
@@ -299,6 +359,19 @@
         <div class="credit-box">
             <p class="credit-text">© Created by Mohammad Falahati - <span id="currentyear">as</span></p>
         </div>
+
+        <v-btn
+            v-if="showButton"
+            class="md-5 elevation-21"
+            dark
+            fab
+            fixed
+            bottom
+            right
+            @click="scrollToTop">
+            <v-icon>mdi-arrow-up</v-icon>
+        </v-btn>
+
     </v-container>
 </template>
 
@@ -319,6 +392,8 @@ export default {
                 {text: 'mfalahat2002@gmail.com', icon: 'mdi-email', link: 'mailto:mfalahat2002@gmail.com'},
                 {text: 'CV', icon: 'mdi-file-account', link: 'https://drive.google.com/file/d/1M4dbRp4Y8nqU7dwPtJF7bE5y3WcTU0Gi/view'},
             ],
+            showButton: false,
+
 
         }
     },
@@ -334,21 +409,28 @@ export default {
         window.removeEventListener('scroll', this.handleScroll);
     },
     methods: {
+        scrollToTop() {
+                window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll to top
+            });
+        },
         handleScroll() {
             const currentScrollPosition = window.pageYOffset;
             let currentSection = '';
 
-        this.sections.forEach(section => {
-            const element = this.$refs[section];
-            if (element.offsetTop <= currentScrollPosition + 101) {
-            currentSection = section;
-            }
-        });
+            this.sections.forEach(section => {
+                const element = this.$refs[section];
+                if (element.offsetTop <= currentScrollPosition + 101) {
+                currentSection = section;
+                }
+            });
 
-        if (currentSection && this.$route.path !== `/${currentSection}`) {
-            this.$router.push({ path: `/${currentSection}` }, () => {}, () => {});
-        }
-        }
+            if (currentSection && this.$route.path !== `/${currentSection}`) {
+                this.$router.push({ path: `/${currentSection}` }, () => {}, () => {});
+            }
+            this.showButton = window.scrollY > 100;
+        },
     }
 }
 
@@ -539,12 +621,60 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 6rem;
     & p {
         font-size: 16px;
         color: #FFFFFF;
     }
 }
 
+
+
+/* Project Section */
+.project-item {
+    margin-top: 3rem;
+}
+.project-title {
+    font-size: 26px;
+    color: #FFEA9F !important;
+}
+.project-desc {
+    font-size: 20px;
+    color: #FFFFFF !important;
+}
+.project-preview {
+    width: auto;
+    height: auto;
+    /* background-color: lightgray; */
+    margin-top: 3rem;
+    & img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        border-radius: 24px;
+    }
+}
+
+
+
+
+.scroll-to-top-btn {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly below */
+}
+
+.scroll-to-top-btn.v-enter-active,
+.scroll-to-top-btn.v-leave-active {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Move to original position */
+}
+
+.scroll-to-top-btn.v-leave-to {
+  opacity: 0; /* Fade out */
+  transform: translateY(20px); /* Move down */
+}
 
 
 
