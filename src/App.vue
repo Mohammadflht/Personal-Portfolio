@@ -17,13 +17,17 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+  font-family: "Poppin";
+  src: url(assets/Fonts/Poppins-Regular.ttf);
+}
 #app {
   width: 100%;
   /* height: 100vh; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins';
+  font-family: 'Poppin';
   background-color: #151515;
 }
 
