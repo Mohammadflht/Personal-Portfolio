@@ -11,15 +11,17 @@
                     col="12"
                     style="">
                     <v-avatar
-                        size="90px">
+                        size="90px"
+                        class="bioImageBox">
                         <img src="../assets/My Personal PIC.jpg" alt="Mohammad Falahati Pics" draggable="false" title="Mohammad Falahati">
                     </v-avatar>
                 </v-col>
             </v-row>
-            <v-row>
+            <v-row class="bioTitleBox">
                 <v-col
                     col="12"
-                    style="color: #ffffff; font-size: 52px; font-weight: 700;">
+                    style="color: #ffffff; font-size: 52px; font-weight: 700;"
+                    class="bioTitle">
                     Hey, I am Mohammad
                 </v-col>
             </v-row>
@@ -27,7 +29,8 @@
                 <v-col
                     col="12">
                     <p
-                        style="font-size: 24px; text-align: left;">
+                        style="font-size: 24px; text-align: left;"
+                        class="bioTextBox">
                         <span
                             style="color: #FFEA9F;">
                             Motivated and adaptable eager to contribute and learn.
@@ -43,7 +46,8 @@
                     </p>
                 </v-col>
             </v-row>
-            <v-row>
+            <v-row
+                class="bioButtonsBox">
                 <v-col
                     col="12"
                     style="display: flex; gap: 28px; flex-wrap: wrap;">
@@ -113,7 +117,7 @@
 
                 Languages
             </h2>
-            <div>
+            <div class="languageBox">
                 <p class="language-name">Persian - Navite</p>
                 <hr style="width: 100%;" class="language-progress">
 
@@ -141,7 +145,7 @@
 
                 Skills
             </h2>
-            <div>
+            <div class="skillsMainBox">
                 <div>
                     <p class="skill-title">Web Development:</p>
                     <p>
@@ -362,7 +366,7 @@
 
         <v-btn
             v-if="showButton"
-            class="md-5 elevation-21"
+            class="md-5 elevation-21 goUpButton"
             dark
             fab
             fixed
@@ -701,6 +705,110 @@ section{
     section {
         padding-left: 10rem;
         padding-right: 10rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    section {
+        padding-left: 6rem;
+        padding-right: 10rem;
+        margin-bottom: 0 !important;
+        &:first-child {
+            padding-top: 40px !important;
+        }
+    }
+    .bioImageBox {
+        width: 60px !important;
+        height: 60px !important;
+        min-width: 60px !important;
+    }
+    .bioTitleBox {
+        width: 350px;
+    }
+    .bioTitle {
+        font-size: 25px !important;
+    }
+    .bioTextBox {
+        font-size: 10px !important;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bioButtonsBox {
+        width: 400px !important;
+    }
+    .title-color {
+        font-size: 22px !important;
+        margin-top: 200px;
+        width: 100vw;
+    }
+    .time-period {
+        font-size: 12px !important;
+    }
+    .timeline-toggle-1 {
+        left: 58px !important;
+    }
+    .timeline-toggle-2 {
+        left: 258px !important;
+    }
+    .education-title {
+        font-size: 16px !important;
+    }
+    .education-info {
+        font-size: 14px !important;
+    }
+    .Diploma p, .bachelor p {
+        width: 90% !important;
+    }
+    .languageBox{
+        & p {
+            width: 100vw;
+        }
+        & hr {
+                &:nth-child(2) {
+                    width: 100vw !important;
+                }
+                &:nth-child(4) {
+                    width: 70vw !important;
+                }
+        }
+    }
+    .language-name {
+        font-size: 15px !important;
+    }
+    .skillsMainBox div {
+        width: 100vw;
+        & p {
+            & button {
+                font-size: 12px !important;
+            }
+        }
+    }
+    .skill-title {
+        font-size: 16px !important;
+    }
+    .work-timeline-toggle-1 {
+        left: 58px;
+    }
+    .work-timeline-toggle-2 {
+        left: 198px;
+    }
+    .work-timeline-toggle-3 {
+        left: 338px;
+    }
+    .project-title {
+        font-size: 20px !important;
+        width: 100vw;
+    }
+    .project-desc {
+        font-size: 16px;
+        width: 100vw;
+    }
+    .project-item img {
+        max-width: 100vw !important;
+    }
+    .credit-text {
+        text-wrap: nowrap;
+        margin-left: 200px;
     }
 }
 </style>
