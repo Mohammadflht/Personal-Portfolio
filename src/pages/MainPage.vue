@@ -64,7 +64,20 @@
                 <div class="master">
                     <p class="time-period">Aug 2024 - Present</p>
                     <p class="education-title">Master's degree, Computer Software Engineering</p>
-                    <p class="education-info">Islamic Azad University - Science and Research Branch, Tehran, Iran.</p>
+                    <p class="education-info">
+                        Islamic Azad University - Science and Research Branch, Tehran, Iran.
+                        <a href="https://srb.iau.ir/" target="_blank">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Interface / External_Link">
+                                    <path id="Vector"
+                                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                                        stroke="#FFFCFC" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </a>
+                    </p>
                 </div>
                 <div class="timeline-toggle-0"></div>
 
@@ -73,6 +86,17 @@
                     <p class="education-title">Bachelor of Engineering - BE, Computer Engineering</p>
                     <p class="education-info">
                         Shahrood University of Technology, Semnan, Iran.
+                        <a href="https://www.shahroodut.ac.ir/" target="_blank">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Interface / External_Link">
+                                    <path id="Vector"
+                                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                                        stroke="#FFFCFC" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </a>
                     </p>
                 </div>
                 <div class="timeline-toggle-1"></div>
@@ -80,7 +104,20 @@
                 <div class="Diploma">
                     <p class="time-period">Sep 2017 - May 2020</p>
                     <p class="education-title">High School Diploma, Mathematics and Physics</p>
-                    <p class="education-info">Fahmide High School, Qom, Iran.</p>
+                    <p class="education-info">
+                        Fahmide High School, Qom, Iran.
+                        <a href="https://fahmideqom.ir/" target="_blank">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Interface / External_Link">
+                                    <path id="Vector"
+                                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                                        stroke="#FFFCFC" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </a>
+                    </p>
                 </div>
                 <div class="timeline-toggle-2"></div>
             </div>
@@ -225,24 +262,60 @@
                 <div class="work-timeline-1">
                     <p class="time-period">Jul 2024 - Present</p>
                     <p class="education-title">Frontend Developer</p>
-                    <p class="education-info">Iranguereh - Part-time <a href="https://guereh.com/" target="_blank">(view
-                            website)</a></p>
+                    <p class="education-info">
+                        Iranguereh
+                        <a href="https://guereh.com/" target="_blank">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Interface / External_Link">
+                                    <path id="Vector"
+                                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                                        stroke="#FFFCFC" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </a>
+                    </p>
                 </div>
                 <div class="work-timeline-toggle-1"></div>
 
                 <div class="work-timeline-2">
                     <p class="time-period">Oct 2023 - Jun 2024</p>
                     <p class="education-title">Teaching Assistant</p>
-                    <p class="education-info">Shahrood University of Technology <a href="https://shahroodut.ac.ir/en/"
-                            target="_blank">(view website)</a></p>
+                    <p class="education-info">
+                        Shahrood University of Technology
+                        <a href="https://shahroodut.ac.ir/en/" target="_blank">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Interface / External_Link">
+                                    <path id="Vector"
+                                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                                        stroke="#FFFCFC" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </a>
+                    </p>
                 </div>
                 <div class="work-timeline-toggle-2"></div>
 
                 <div class="work-timeline-3">
                     <p class="time-period">Jun 2023 - Oct 2023</p>
                     <p class="education-title">Frontend Developer</p>
-                    <p class="education-info">Fidar - Internship <a href="https://fdni.ir/" target="_blank">(view
-                            website)</a></p>
+                    <p class="education-info">
+                        Fidar
+                        <a href="https://fdni.ir/" target="_blank">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Interface / External_Link">
+                                    <path id="Vector"
+                                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                                        stroke="#FFFCFC" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </a>
+                    </p>
                 </div>
                 <div class="work-timeline-toggle-3"></div>
             </div>
@@ -528,6 +601,8 @@ section {
     text-wrap: nowrap;
     color: #FFFFFF !important;
     font-size: 19px;
+    display: flex;
+    gap: 8px;
 }
 
 .language-name {
