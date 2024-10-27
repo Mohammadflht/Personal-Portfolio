@@ -21,7 +21,7 @@
                             Motivated and adaptable eager to contribute and learn.
                         </span>
                         <span style="color: #FFBBC3;">
-                            Passionate Web Developer and UX/UI designer.
+                            Passionate Web Developer.
                         </span>
                         <span style="color: #B6FBFF;">
                             Dedicated of Pixel Perfect web.
@@ -463,7 +463,7 @@ export default {
 
             this.sections.forEach(section => {
                 const element = this.$refs[section];
-                if (element.offsetTop <= currentScrollPosition + 101) {
+                if (element.offsetTop <= currentScrollPosition + 20) {
                     currentSection = section;
                 }
             });
@@ -471,7 +471,7 @@ export default {
             if (currentSection && this.$route.path !== `/${currentSection}`) {
                 this.$router.push({ path: `/${currentSection}` }, () => { }, () => { });
             }
-            this.showButton = window.scrollY > 100;
+            this.showButton = window.scrollY > 20;
         },
     }
 }
