@@ -345,7 +345,7 @@
             <div class="project-item">
                 <p class="project-title">Personal Portfolio</p>
                 <p class="project-desc">
-                    Developed an interactive web application using Astro and Tailwind.
+                    Developed  a personal portfolio website using the Vue framework and vuetify library.
                     Designed to be a reflective space for personal and professional growth,
                     with a focus on simplicity and minimalism.
                 </p>
@@ -376,7 +376,7 @@
             <div class="project-item">
                 <p class="project-title">Calculator</p>
                 <p class="project-desc">
-                    A calculator using JavaScript to execute a series of commands as follows:Addition,
+                    Developed a calculator using Pure JavaScript to execute a series of commands as follows:Addition,
                     Subtraction, Multiplication, Division, Delete, All clear.
                 </p>
                 <div class="project-buttons">
@@ -861,11 +861,11 @@ section {
     }
 
     .bioTitle {
-        font-size: 25px !important;
+        font-size: 28px !important;
     }
 
     .bioTextBox {
-        font-size: 10px !important;
+        font-size: 12px !important;
         width: 350px;
         display: flex;
         flex-direction: column;
