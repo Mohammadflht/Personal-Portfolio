@@ -22,6 +22,7 @@ const vuetify = new Vuetify({
         color1: '#FFEA9F',
         color2: '#FFBBC3',
         color3: '#B6FBFF',
+        navDrawer: '#808782',
       },
     },
   },

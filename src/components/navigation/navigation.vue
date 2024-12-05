@@ -35,7 +35,7 @@
         <!-- Add the navigation drawer -->
         <v-navigation-drawer
             v-model="drawer"
-            class="hidden-md-and-up color1 darken-2"
+            class="hidden-md-and-up navDrawer darken-2"
             temporary
             fixed>
             <v-list>
@@ -43,7 +43,8 @@
                     v-for="button in buttons"
                     @click="navigateTo(button.route)"
                     :key="button"
-                    link>
+                    link
+                    class="drawer-style">
                     <v-list-item-content>
                         <v-list-item-title>{{ button.text }}</v-list-item-title>
                     </v-list-item-content>
@@ -115,5 +116,8 @@ export default {
 }
 .underlined:hover::after {
     transform: scaleX(100%);
+}
+.drawer-style {
+    color: #000000 !important;
 }
 </style>
