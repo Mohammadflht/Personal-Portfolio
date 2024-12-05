@@ -743,7 +743,7 @@ section {
     max-width: 1100px;
     height: auto;
     /* background-color: lightgray; */
-    margin-top: 3rem;
+    margin-top: 2rem;
 
     & img {
         width: auto;
@@ -843,8 +843,8 @@ section {
 
 @media only screen and (max-width: 480px) {
     section {
-        padding-left: 6rem;
-        padding-right: 10rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         margin-bottom: 0 !important;
 
         &:first-child {
@@ -880,7 +880,7 @@ section {
     .title-color {
         font-size: 22px !important;
         margin-top: 200px;
-        width: 100vw;
+        width: 100%;
     }
 
     .time-period {
@@ -918,12 +918,12 @@ section {
 
     .languageBox {
         & p {
-            width: 100vw;
+            width: 100%;
         }
 
         & hr {
             &:nth-child(2) {
-                width: 100vw !important;
+                width: 100% !important;
             }
 
             &:nth-child(4) {
@@ -937,7 +937,7 @@ section {
     }
 
     .skillsMainBox div {
-        width: 100vw;
+        width: 100%;
 
         & p {
             & button {
@@ -964,21 +964,21 @@ section {
 
     .project-title {
         font-size: 20px !important;
-        width: 100vw;
+        width: 100%;
     }
 
     .project-desc {
         font-size: 16px;
-        width: 100vw;
+        width: 100%;
     }
 
     .project-item img {
-        max-width: 100vw !important;
+        max-width: 100% !important;
     }
 
     .credit-text {
         text-wrap: nowrap;
-        margin-left: 200px;
+        font-size: 12px !important;
     }
 
     .lang {
