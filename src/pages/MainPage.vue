@@ -987,7 +987,8 @@ section {
     .master,
     .bachelor,
     .Diploma {
-        padding-right: 16px;
+        padding-right: 5rem;
+        margin-bottom: -12px;
     }
 }
 </style>
