@@ -600,8 +600,10 @@ section {
     text-wrap: nowrap;
     color: #FFFFFF !important;
     font-size: 19px;
-    display: flex;
-    gap: 8px;
+    display: inline-block;
+}
+.education-info a {
+    vertical-align: middle;
 }
 
 .language-name {
@@ -981,6 +983,11 @@ section {
 
     .lang {
         margin-top: 24rem;
+    }
+    .master,
+    .bachelor,
+    .Diploma {
+        padding-right: 16px;
     }
 }
 </style>
