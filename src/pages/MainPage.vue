@@ -358,7 +358,6 @@
                 </div>
             </div>
 
-
             <div class="project-item">
                 <p class="project-title">Interactive Card</p>
                 <p class="project-desc">
@@ -739,6 +738,7 @@ section {
 
 .project-preview {
     width: auto;
+    max-width: 1100px;
     height: auto;
     /* background-color: lightgray; */
     margin-top: 3rem;
