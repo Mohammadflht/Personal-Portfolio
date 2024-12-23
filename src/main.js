@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import router from './router/router'
 import Vuetify from 'vuetify'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
 import App from './App.vue'
@@ -32,4 +34,9 @@ new Vue({
   render: h => h(App),
   router,
   vuetify,
+  mounted() {
+    AOS.init({
+      duration: 1000,
+    });
+  },
 }).$mount('#app')
