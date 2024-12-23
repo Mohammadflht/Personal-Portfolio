@@ -465,6 +465,7 @@
 
 <script>
 import SimpleButton from '../components/buttons/SimpleButton.vue'
+import AOS from 'aos';
 
 export default {
     name: 'MainPage',
@@ -492,9 +493,15 @@ export default {
         let currentYear = document.getElementById("currentyear")
         let fullyear = new Date().getFullYear();
         currentYear.textContent = fullyear;
+
+        window.addEventListener('resize', AOS.refresh); // Refresh AOS
+        window.addEventListener('scroll', AOS.refresh); // Refresh AOS
     },
     beforeDestroy() {
         window.removeEventListener('scroll', this.handleScroll);
+
+        window.addEventListener('resize', AOS.refresh); // Refresh AOS
+        window.addEventListener('scroll', AOS.refresh); // Refresh AOS
     },
     methods: {
         scrollToTop() {
